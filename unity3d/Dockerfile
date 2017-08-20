@@ -5,9 +5,12 @@ RUN apt-get -qq update && apt-get -qq install -y \
     
 RUN mkdir -p /root/.cache/unity3d && mkdir -p /root/.local/share/unity3d/Unity && mkdir -p /root/.local/share/unity3d/Certificates
 ADD get-unity.sh /app/get-unity.sh
+ADD run-unity.sh /app/run-unity.sh
 ADD Unity_v5.x.ulf /root/.local/share/unity3d/Unity/Unity_v5.x.ulf
 ADD CACerts.pem /root/.local/share/unity3d/Certificates/CACerts.pem
 RUN chmod +x /app/get-unity.sh && \
+    chmod +x /app/run-unity.sh && \
     /app/get-unity.sh && \
     dpkg -i /app/unity_editor.deb && \
     rm /app/unity_editor.deb
+ENV PATH="/opt/Unity/Editor:${PATH}"
