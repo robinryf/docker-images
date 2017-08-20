@@ -13,4 +13,4 @@ RUN chmod +x /app/get-unity.sh && \
     /app/get-unity.sh && \
     dpkg -i /app/unity_editor.deb && \
     rm /app/unity_editor.deb
-ENV PATH="/opt/Unity/Editor:${PATH}"
+ENV PATH="/app:${PATH}"
