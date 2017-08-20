@@ -1,0 +1,51 @@
+<root>
+  <TimeStamp Value="bm4Im4SyhWJPqQ=="/>
+  <License id="Terms">
+    <AlwaysOnline Value="false"/>
+    <ClientProvidedVersion Value="5.6.1xf1Linux"/>
+    <DeveloperData Value="AQAAAEYzLVU1WkctUEFHSi1YS0g3LTM1VkItVVJaMg=="/>
+    <Features>
+      <Feature Value="1"/>
+      <Feature Value="2"/>
+      <Feature Value="3"/>
+      <Feature Value="12"/>
+      <Feature Value="17"/>
+      <Feature Value="19"/>
+      <Feature Value="24"/>
+      <Feature Value="33"/>
+      <Feature Value="36"/>
+      <Feature Value="62"/>
+    </Features>
+    <InitialActivationDate Value="2017-08-11T22:47:32"/>
+    <LicenseVersion Value="5.x"/>
+    <MachineBindings>
+      <Binding Key="1" Value=""/>
+    </MachineBindings>
+    <MachineID Value="2jmj7l5rSw0yVb/vlWAYkK/YBwk="/>
+    <SerialHash Value="f6486e4b2b3740337b96ae58a8600b36ed45578c"/>
+    <SerialMasked Value="F3-U5ZG-PAGJ-XKH7-35VB-XXXX"/>
+    <StartDate Value=""/>
+    <StopDate Value=""/>
+    <UpdateDate Value="2017-08-21T09:55:55"/>
+  </License>
+
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+<SignedInfo>
+<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315#WithComments"/>
+<SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<Reference URI="#Terms">
+<Transforms>
+<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</Transforms>
+<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<DigestValue>3DHfgUeAM4Gi9vBjaQboPsgFdHY=</DigestValue>
+</Reference>
+</SignedInfo>
+<SignatureValue>wCla2dfnLUc9vOBKeXZ9Gttw8zpgK1Ez/wSrW90QRcBFzMpYJry0rWxW8PFQg+p6
+Xxt1mdR0MOrV/3q0urGZ+eqEenxu373yoqywWYQJIV89o+rbZ8JukwhvhhrBYQq3
+6ShRzvK1HQsSSs/x7YkFVXoRt7MZbxD79H7BYTS2gHO2+EF4Mv332qmDwNqCLJ1X
+bZsSAbAdIJsvOOi6+12kF8oPpH5qBXzILbfdv+vEQSIbkYMWO4sst4aypt3v8Fis
+tr4+TZSRnhoIJuencoCKopxAELCeyh2iOb9yRammKGl+/LmpE1GQI03nKuL3IfGC
+kJjzlFeX67AEasWXzg2nFQ==</SignatureValue>
+</Signature>
+</root>
