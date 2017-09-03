@@ -1,5 +1,5 @@
 unity:
-    image: "robinryf/unity-linux:latest"
+    image: "robinryf/unity:latest"
     script:
     # Move repo content to own directory
     - shopt -s extglob
