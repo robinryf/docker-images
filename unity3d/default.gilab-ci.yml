@@ -1,0 +1,20 @@
+unity:
+    image: "robinryf/unity-linux:latest"
+    script:
+    # Move repo content to own directory
+    - shopt -s extglob
+    - mkdir rootPackage
+    - mv !(rootPackage) rootPackage
+    # Checkout Package Manager
+    - BASE_URL=`echo $CI_REPOSITORY_URL | sed "s;\/*$CI_PROJECT_PATH.*;;"`
+    - REPO_URL="${BASE_URL}/robinryf/buu-package-manager.git"
+    - git clone ${REPO_URL} BuuPackageManager
+    - run-unity.sh "-batchmode -createProject $(pwd)/UnityProject -logFile -quit"
+    - python BuuPackageManager/dependencyResolver.py $(pwd)/rootPackage $(pwd)/UnityProject/Assets
+    - PACKAGE_PATH_LIST=$(cat includedPackagesPathList)
+    - ROOT_PACKAGE_NAME=$(cat rootPackageName)
+    - echo "File content. ${ROOT_PACKAGE_NAME} and packages. ${PACKAGE_PATH_LIST}"
+    - run-unity.sh "-batchmode -projectPath $(pwd)/UnityProject -exportPackage ${PACKAGE_PATH_LIST} $(pwd)/${ROOT_PACKAGE_NAME}.unitypackage -logFile -quit"
+    artifacts:
+        paths:
+        - $(pwd)/$(cat rootPackageName).unitypackage
