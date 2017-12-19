@@ -56,7 +56,6 @@ RUN mkdir warmup \
 # Install Nuget
 
 RUN mkdir -p /app/nuget
-#ADD nuget.exe /app/nuget/nuget.exe
 ENV NUGET_DOWNLOAD_URL https://dist.nuget.org/win-x86-commandline/latest/nuget.exe
 RUN curl -SL $NUGET_DOWNLOAD_URL --output /app/nuget/nuget.exe
 ADD nuget.sh /app/nuget/nuget.sh
