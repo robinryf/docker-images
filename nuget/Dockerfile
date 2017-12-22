@@ -1,5 +1,10 @@
 FROM buildpack-deps:jessie-scm
 
+# Install gettext for 'envsubst' command
+RUN apt-get update \
+  && apt-get install -y gettext \
+  && rm -rf /var/lib/apt/lists/* /tmp/*
+
 # Install mono
 # Source: https://github.com/docker-library/docs/tree/master/mono
 
