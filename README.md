@@ -28,4 +28,4 @@ Unity3d images that contains an activated Unity standalone installation. This ca
 
 ### Nuget
 
-To build NuGet packages in a CI environment. NuGet is officially only supported on Windows. But using Mono it also works on Linux.
+To build NuGet packages in a CI environment. NuGet is officially only supported on Windows. But using Mono it also works on Linux. This image also includes dotnet core sdk to build .net core libraries.
