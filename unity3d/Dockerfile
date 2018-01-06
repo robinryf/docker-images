@@ -11,7 +11,5 @@ ADD 2017/Unity_lic.ulf /root/.local/share/unity3d/Unity/Unity_lic.ulf
 ADD CACerts.pem /root/.local/share/unity3d/Certificates/CACerts.pem
 RUN chmod +x /app/get-unity.sh && \
     chmod +x /app/run-unity.sh
-RUN /app/get-unity.sh && \
-    dpkg -i /app/unity_editor.deb && \
-    rm /app/unity_editor.deb
+RUN /app/get-unity.sh
 ENV PATH="/app:${PATH}"
