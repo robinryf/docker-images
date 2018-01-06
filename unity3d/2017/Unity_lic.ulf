@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><root>
+  <TimeStamp Value="bm4JnYe4hG3TKA=="/>
+    <License id="Terms">
+        <MachineBindings>
+            <Binding Key="1" Value=""/>
+        </MachineBindings>
+        <MachineID Value="2jmj7l5rSw0yVb/vlWAYkK/YBwk="/>
+        <SerialHash Value="2ec08dcef8c71de4e0b1f85b0bf59643a4a0c6f4"/>
+        <Features>
+            <Feature Value="33"/>
+            <Feature Value="1"/>
+            <Feature Value="12"/>
+            <Feature Value="2"/>
+            <Feature Value="24"/>
+            <Feature Value="3"/>
+            <Feature Value="36"/>
+            <Feature Value="17"/>
+            <Feature Value="19"/>
+            <Feature Value="62"/>
+        </Features>
+        <DeveloperData Value="AQAAAEY0LVg0OFktRVdNOC1ZQlMzLTMzQjItSks2TQ=="/>
+        <SerialMasked Value="F4-X48Y-EWM8-YBS3-33B2-XXXX"/>
+        <StartDate Value="2018-01-05T20:19:50"/>
+        <UpdateDate Value="2018-01-06T20:20:14"/>
+        <InitialActivationDate Value="2018-01-05T20:19:50"/>
+        <LicenseVersion Value="6.x"/>
+        <ClientProvidedVersion Value="2017.1.1xf1Linux"/>
+        <AlwaysOnline Value="false"/>
+        <Entitlements>
+            <Entitlement Ns="unity_editor" Tag="UnityPersonal" Type="EDITOR" ValidTo="9999-12-31T00:00:00"/>
+        </Entitlements>
+    </License>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315#WithComments"/><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><Reference URI="#Terms"><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><DigestValue>G3JufxDU4kI7Xhupj1w/7/N/8vU=</DigestValue></Reference></SignedInfo><SignatureValue>A/+SL2upT6rRrM2k7Ts57k+3HOaLjr1A1qi3/PeyhdsQ4+pWnz4clqs7KlBSA+atIekDsPktNbHm
+TaZmfjTHiQAbN3+2iYijm7Qk/8cbC8yK3UTvl0enGe0nnGHmgXTrtf/WMC57y6KLjv2/jtm3iick
+xORbZhAKna/Is64jpQv9jTYlbez/NYPB8e5RN2TKS4hKWSU6IfGFJ56zZjhehXLLyeFn5OkSge44
+hGCyOVYWoeD1u0wVgDVpCLDszNfMgzPMv4gMm06IJWU9+LxVKtkS3bTIfCHY+gYptGpJrBhb/yzL
+TTppasNLnGOf5WRAI7hhKtNvX5WQIS6Ym40ayA==</SignatureValue></Signature></root>
