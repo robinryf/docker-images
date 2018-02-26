@@ -3,7 +3,7 @@
 URL=http://beta.unity3d.com/download/3c89f8d277f5/UnitySetup-2017.3.0f1
 INSTALL_LOCATION=/opt/Unity
 DOWNLOAD_LOCATION=/app/unity_download
-UNITY_COMPONENTS="Unity"
+UNITY_COMPONENTS="Unity,Mac,Windows,Linux"
 
 echo "Start Unity3D installer download..."
 curl -o /app/unity_setup -s "${URL}"
