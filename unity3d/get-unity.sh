@@ -1,6 +1,6 @@
 #!/bin/sh
 
-URL=http://beta.unity3d.com/download/f4fc8fd4067d/unity-editor_amd64-2017.1.1xf1Linux.deb
+URL=http://beta.unity3d.com/download/7598623e6ed6/unity-editor_amd64-2017.1.2f1.deb
 
 echo "Start Unity3D installer download..."
 curl -o /app/unity_editor.deb -s "${URL}"
