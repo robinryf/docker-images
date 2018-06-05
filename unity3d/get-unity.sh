@@ -1,9 +1,9 @@
 #!/bin/sh
 
-URL=http://beta.unity3d.com/download/170f0691b973/UnitySetup-2018.1.0f2
+URL=http://beta.unity3d.com/download/3709a3f954c1/UnitySetup-2018.1.2f1
 INSTALL_LOCATION=/opt/Unity
 DOWNLOAD_LOCATION=/app/unity_download
-UNITY_COMPONENTS="Unity,Mac,Windows,Linux"
+UNITY_COMPONENTS="Unity,Mac-Mono,Windows-Mono,Linux"
 
 echo "Start Unity3D installer download..."
 curl -o /app/unity_setup -s "${URL}"
