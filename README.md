@@ -24,6 +24,7 @@ The variable `<imageName>` has to be replaced with the docker image name and has
 ### Unity3D
 
 Unity3d images that contains an activated Unity standalone installation. This can be used for builds but also other tasks like building .unitypackage files from repositories. Used in [FishmanNavigation](https://gitlab.com/robinryf/fishman-navigation) to automatically build .unitypackage files when new changes are pushed.
+Newest Unity Linux versions can be found [HERE](https://forum.unity.com/threads/unity-on-linux-release-notes-and-known-issues.350256/).
 
 
 ### Nuget
