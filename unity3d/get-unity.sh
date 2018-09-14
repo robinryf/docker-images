@@ -1,6 +1,6 @@
 #!/bin/sh
 
-URL=http://beta.unity3d.com/download/093b6115f8df/UnitySetup-2018.1.3f1
+URL=http://beta.unity3d.com/download/2e0fa9ec2214/UnitySetup-2018.1.5f1
 INSTALL_LOCATION=/opt/Unity
 DOWNLOAD_LOCATION=/app/unity_download
 UNITY_COMPONENTS="Unity,Mac-Mono,Windows-Mono,Linux"
