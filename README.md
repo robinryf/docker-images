@@ -1,3 +1,6 @@
+NOT MAINTAINED ANYMORE. Please fork and update yourself or go to Docker Hub and search for "unity3d" for an alternative like https://gitlab.com/gableroux/unity3d 
+
+
 # Docker Images Repo
 
 This repository contains build information for different docker images that are built and published by docker hub.
